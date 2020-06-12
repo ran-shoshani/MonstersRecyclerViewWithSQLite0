@@ -209,7 +209,7 @@ public class TaskDatabaseHelper extends SQLiteOpenHelper {
     }
 
     public List<Task> getTasks() {
-
+        // fix database errors
         List<Task> tasks = new ArrayList<>();
         Cursor cursor = getAll();
 
