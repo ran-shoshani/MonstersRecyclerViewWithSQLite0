@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 addTask(data);
             }
         }
-        
+
     }
 
     private void addTask(Intent data) {
